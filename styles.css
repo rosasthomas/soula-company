@@ -56,7 +56,8 @@ main{
 .whoWeAre {
     display: flex;
     justify-content: center;
-    align-items: center;
+    overflow: auto;
+    margin-top: 5rem;
     height: 100%;
 }
 
@@ -117,7 +118,7 @@ main{
     display: flex;
     height: 100%;
     flex-direction: column;
-    justify-content: space-evenly;
+    margin-top: 5rem;
     align-items: center;
     font-size: 2.5rem;
 }
